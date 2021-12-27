@@ -1,0 +1,22 @@
+# https://EditorConfig.org
+
+# Top-most EditorConfig file
+root = true
+
+# Defaults
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Tab indentation override (no size specified)
+[{*.go,Makefile,*.mk}]
+indent_style = tab
+
+# 2-space indentation override
+[*.{yaml,yml}]
+indent_style = space
+indent_size = 2
